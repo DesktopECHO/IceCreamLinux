@@ -2,7 +2,7 @@
 
 Linux chroot instance for Android 4.x devices. (needs root)
 
-Includes Firefox 128, ncspot.
+Includes Firefox 140 and 'spot' GTK Spotify Client.
 
 - Download and install the Linux Deploy APK.  [Version 2.5.1](https://github.com/meefik/linuxdeploy/releases/tag/2.5.1) is the latest version for Android 4.x.
   
