@@ -12,7 +12,7 @@ Build 14 includes Firefox 140, Chrome 128, 'spot' GTK Spotify Client, audio reco
   
 - Download the Ice Cream Linux [disk image](https://github.com/DesktopECHO/IceCreamLinux/releases/latest/icl14.tgz) and copy it to your device.
 
-- Download an RDP client to connect to the Linux instance:
+- Download/Install an RDP client to connect to the Linux instance on your device:
 
   - Android 4.1+ · [Remote Desktop 8 8.1.82.445](https://www.apkmirror.com/apk/microsoft-corporation/microsoft-remote-desktop/microsoft-remote-desktop-8-1-82-445-release/)
 
