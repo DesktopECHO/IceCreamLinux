@@ -25,3 +25,5 @@ Build 14 includes Firefox 140, Chrome 128, [spot](https://github.com/xou816/spot
 - Start the Instance.  New SSH Keys and SSL certificates are regenerated during the deploymemt's first-run.
 
 - Open your RDP client and conect to the instance, either locally by using `localhost` for the device name, or remotely using the device's IP address or mDNS name.
+
+<img width="400" height="620" alt="screen" src="https://github.com/user-attachments/assets/53d7302e-f447-444e-9716-08b5c11b8431" /> · <img width="400" height="620" alt="screen1" src="https://github.com/user-attachments/assets/b20f9988-3c9a-4f88-ab55-6f8e39f3e5be" />
