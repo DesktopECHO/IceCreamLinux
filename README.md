@@ -2,7 +2,7 @@
 
 A Linux environment based on Ubuntu sources with modern web browsers for Android 4.x and other devices running old Linux kernels (2.6.24 to 3.1.10).  The environment can be accessed on-device or remotely via RDP protocol.  Folder redirection and audio playback/recording work out of the box.
 
-Build 14 includes Firefox 140, Chrome 128, [spot](https://github.com/xou816/spot) GTK Spotify Client, and a GTK [audio recorder](https://launchpad.net/~audio-recorder/+archive/ubuntu/ppa).
+Build 15 includes Firefox 140, Chrome 128, [spot](https://github.com/xou816/spot) GTK Spotify Client, and a GTK [audio recorder](https://launchpad.net/~audio-recorder/+archive/ubuntu/ppa).
 
 **Requires a rooted device.**
 
