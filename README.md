@@ -43,10 +43,39 @@ Build 15 includes Firefox 140, Chrome 128, [spot](https://github.com/xou816/spot
 
 # Desktop Session
      
-A minimal desktop environment will appear.  Tap the launcher (Android icon) for a list of apps:
+<table border="0">
+  <tr>
+    <td><img alt="xfce" src="https://github.com/user-attachments/assets/37356f63-bed4-408f-939c-b01a5148acac" width="100%"/></td>
+    <td width="30"></td>
+    <td><img alt="chromium" src="https://github.com/user-attachments/assets/7c46d28f-b605-4dbf-b9d8-f607350f7f3a" width="100%"/></td>
+    <td width="30"></td>
+    <td><img alt="thunar" src="https://github.com/user-attachments/assets/89c9257e-5cd2-4d64-b532-cc7d62a7d5fa" width="100%"/></td>
+  </tr>
+  <tr>
+    <td align="center">XFCE4 Desktop.  The 'Start' button can be dragged anywhere onscreen.</td>
+    <td></td>
+    <td align="center">Full desktop versions of Chromium 128 amd Firefox 140</td>
+    <td></td>
+    <td align="center">File Manager with Android sdcard redirection</td>
+  </tr>
+</table>
 
-<img width="400" height="640" alt="screen" src="https://github.com/user-attachments/assets/53d7302e-f447-444e-9716-08b5c11b8431" />
+<br>
 
-Chrome 128 on libc6 2.23:
+<table border="0">
+  <tr>
+    <td><img alt="yt" src="https://github.com/user-attachments/assets/86fa28f1-3ea9-4853-8a95-4aea0cc50536" width="100%"/></td>
+    <td width="30"></td>
+    <td><img alt="spot" src="https://github.com/user-attachments/assets/76eba08f-51be-44af-a2fb-c22f2813d9ee" width="100%"/></td>
+    <td width="30"></td>
+    <td><img alt="neofetch" src="https://github.com/user-attachments/assets/da0990d9-0eff-45d9-96ba-5b8fa336c7f8" width="100%"/></td>
+  </tr>
+  <tr>
+    <td align="center">YouTube Web App - other PWA's have been tested and work well.</td>
+    <td></td>
+    <td align="center">Spotify Player (Spot GTK4 Rust Client)</td>
+    <td></td>
+    <td align="center">ICL on a 14 year old Galaxy S2 with 845MB RAM and 3.0 Kernel</td>
+  </tr>
+</table>
 
-<img width="400" height="640" alt="screen1" src="https://github.com/user-attachments/assets/a30932a8-725f-4a91-b02a-aebd65c27f3c" />
