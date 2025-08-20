@@ -4,7 +4,15 @@ Most Android 4 _(AKA: Ice Cream Sandwich)_ devices run a 3.0.x Linux kernel.  If
 
 This project is a Linux environment based on glibc 2.23 from Ubuntu Xenial, with packages backported and rebuilt from newer Ubuntu sources.  Its goal is to run newer versions of Chrome and Firefox on Android devices made in the ealry 2010's.  
 
-The environment can be accessed on-device or remotely via RDP protocol.  Folder redirection and audio playback/recording work out of the box.  The latest build includes Firefox 140, Chrome 128, and the [spot](https://github.com/xou816/spot) GTK Spotify Client.
+The environment can be accessed on-device or remotely via RDP protocol.  
+Folder redirection and audio work out of the box.  
+
+Current functionality:
+
+- Chromium 128 and Firefox 140.  Chromium seems to work better overall.
+- [Spot](https://github.com/xou816/spot) GTK Spotify Client
+- Pi-hole DNS Server.  Note you should not use the built-in updater (Source code changes are needed to work with old kernels).
+- Device becomes an AirPlay target.  This lets you Wi-fi enable any wired or bluetooth speaker attached to your Android device
 
 **Requires a rooted device.**
 
