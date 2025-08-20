@@ -12,7 +12,7 @@ The environment can be accessed on-device or remotely via RDP protocol.  Folder 
 
 - Download/install the Linux Deploy APK.  [Version 2.5.1](https://github.com/meefik/linuxdeploy/releases/tag/2.5.1) is the latest version for Android 4.x.
   
-- Download the Ice Cream Linux [disk image](https://github.com/DesktopECHO/IceCreamLinux/releases/download/15/icl15.tgz) and copy it to your device.
+- Download the Ice Cream Linux [disk image](https://github.com/DesktopECHO/IceCreamLinux/releases/latest/download/icl.tgz) and copy it to your device.
 
 - Download/Install an RDP client to connect to the Linux instance on your device:
 
