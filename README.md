@@ -18,17 +18,15 @@ Current functionality:
 
 # Instructions
 
+- In your root app (SuperSU or Magisk) enable Global Namespace mounting (restart required)
+  
 - Download/install the Linux Deploy APK.  [Version 2.5.1](https://github.com/meefik/linuxdeploy/releases/tag/2.5.1) is the latest version for Android 4.x.
   
 - Download the Ice Cream Linux [disk image](https://github.com/DesktopECHO/IceCreamLinux/releases/latest/download/icl.tgz) and copy it to your device.
 
-- Download/Install an RDP client to connect to the Linux instance on your device:
-
-  - Android 4.1+ · [Remote Desktop 8 8.1.82.445](https://www.apkmirror.com/apk/microsoft-corporation/microsoft-remote-desktop/microsoft-remote-desktop-8-1-82-445-release/)
-
-  - Android 4.0.3+ · [Remote Desktop 8 8.1.28.2](https://www.apkmirror.com/apk/microsoft-corporation/microsoft-remote-desktop/microsoft-remote-desktop-8-1-28-2-release/)
-    
 - In Linux Deploy options:
+  
+  - Set the location of the downloaded disk image, for example `/mnt/sdcard/icl.tgz`  
 
   - Enable the SysV Init System
     
@@ -44,11 +42,18 @@ Current functionality:
      
    - For remote connections, set to the device's IP address or mDNS name (_devicename.local_)
  
-   - Set the username (android) and the password you set in Linux Deploy
+   - Set the username (android) and the password
  
    - Enable folder, audio, and microphone redirection as needed
      
    - If the device has a touch screen, set mouse click to 'Tap' style
+
+- If Global Namespace mounting is enabled, the RDP client will be automatically installed and configured.  If not, see the links below to install an RDP client.
+
+  - Android 4.1+ · [Remote Desktop 8 8.1.82.445](https://www.apkmirror.com/apk/microsoft-corporation/microsoft-remote-desktop/microsoft-remote-desktop-8-1-82-445-release/)
+
+  - Android 4.0.3+ · [Remote Desktop 8 8.1.28.2](https://www.apkmirror.com/apk/microsoft-corporation/microsoft-remote-desktop/microsoft-remote-desktop-8-1-28-2-release/)
+    
 
 
 # Desktop Session
