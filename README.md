@@ -2,7 +2,7 @@
 
 Most Android 4 _(AKA: Ice Cream Sandwich)_ devices run a 3.0.x Linux kernel.  If you want to run a GNU-based Linux disribution alongside Android in a chroot, this is a showstopper because glibc 2.24 (releassed late 2016) requires kernel 3.2 or newer.  As a result, Linux distributions built from 2017 onward won't work with the majority of Android 4.x devices out there.
 
-This project is a Linux environment based on glibc 2.23 from Ubuntu Xenial, with packages backported and rebuilt from newer Ubuntu sources.  Its goal is to run newer versions of Chrome and Firefox on Android devices made in the ealry 2010's.  
+This project is a Linux environment based on glibc 2.23 from Ubuntu Xenial, with packages backported and rebuilt from newer Ubuntu sources.  Its goal is to run newer versions of Chrome and Firefox on Android 4.x devices made from 2011 onward. 
 
 The environment can be accessed on-device or remotely via RDP protocol.  
 Folder redirection and audio work out of the box.  
@@ -12,7 +12,7 @@ Current functionality:
 - Chromium 128 and Firefox 140.  Chromium seems to work better overall.
 - [Spot](https://github.com/xou816/spot) GTK Spotify Client
 - Pi-hole DNS Server.  Note you should not use the built-in updater (Source code changes are needed to work with old kernels).
-- Device becomes an AirPlay target.  This lets you Wi-fi enable any wired or bluetooth speaker attached to your Android device
+- Device becomes an AirPlay target.  This lets you AirPlay enable **any** wired or bluetooth speaker attached to your Android device
 
 **Requires a rooted device.**
 
