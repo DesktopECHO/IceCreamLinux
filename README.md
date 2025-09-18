@@ -1,3 +1,5 @@
+[![Watch on YouTube](https://img.youtube.com/vi/fUjbu7cb-1Y/hqdefault.jpg)](https://youtube.com/shorts/fUjbu7cb-1Y?si=6b8pq-6DyteZcY7j)
+
 # Ice Cream Linux
 
 Most Android 4 _(AKA: Ice Cream Sandwich)_ devices run a 3.0.x Linux kernel.  If you want to run a GNU-based Linux disribution alongside Android in a chroot, this is a showstopper because glibc 2.24 (releassed late 2016) requires kernel 3.2 or newer.  As a result, Linux distributions built from 2017 onward won't work with the majority of Android 4.x devices out there.
