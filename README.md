@@ -1,6 +1,6 @@
-[![Watch on YouTube](https://img.youtube.com/vi/fUjbu7cb-1Y/hqdefault.jpg)](https://youtube.com/shorts/fUjbu7cb-1Y?si=6b8pq-6DyteZcY7j)
-
 # Ice Cream Linux
+
+[![Watch on YouTube](https://github.com/user-attachments/assets/b02567e7-1de2-4595-b26e-219152695891)](https://youtube.com/shorts/fUjbu7cb-1Y?si=6b8pq-6DyteZcY7j)
 
 Most Android 4 _(AKA: Ice Cream Sandwich)_ devices run a 3.0.x Linux kernel.  If you want to run a GNU-based Linux disribution alongside Android in a chroot, this is a showstopper because glibc 2.24 (releassed late 2016) requires kernel 3.2 or newer.  As a result, Linux distributions built from 2017 onward won't work with the majority of Android 4.x devices out there.
 
@@ -19,44 +19,18 @@ Current functionality:
 **Requires a rooted device.**
 
 # Instructions
-
-- In your root app (SuperSU or Magisk) enable Global Namespace mounting (restart required)
   
-- Download/install the Linux Deploy APK.  [Version 2.5.1](https://github.com/meefik/linuxdeploy/releases/tag/2.5.1) is the latest version for Android 4.x.
+- Download and install the [ICL Deploy APK](https://github.com/DesktopECHO/IceCreamLinux/releases/latest/download/icldeploy.apk)
   
-- Download the Ice Cream Linux [disk image](https://github.com/DesktopECHO/IceCreamLinux/releases/latest/download/icl.tgz) and copy it to your device.
+- For older browsers, you can use [this link](https://desktopecho.com/icldeploy.apk) to download the APK.
 
-- In Linux Deploy options:
+- Open ICL Deploy:
   
-  - Set the location of the downloaded disk image, for example `/mnt/sdcard/icl.tgz`  
-
-  - Enable the SysV Init System
+  - Tap **Install** to create a new instance.
     
-  - Set a password for the default user (username: _android_)
+  - Tap **Start** to launch the instance.  SSH Keys and SSL certificates will be regenerated during the deploymemt's first-run.
 
-- Deploy the instance and wait a few minutes for it to complete.  
-
-- Start the Instance.  SSH Keys and SSL certificates will be regenerated during the deploymemt's first-run.
-
-- Open your RDP client and conect to the instance:
- 
-   - When running the RDP client directly on the deivice, set `localhost` for the device name
-     
-   - For remote connections, set to the device's IP address or mDNS name (_devicename.local_)
- 
-   - Set the username (android) and the password
- 
-   - Enable folder, audio, and microphone redirection as needed
-     
-   - If the device has a touch screen, set mouse click to 'Tap' style
-
-- If Global Namespace mounting is enabled, the RDP client will be automatically installed and configured.  If not, see the links below to install an RDP client.
-
-  - Android 4.1+ · [Remote Desktop 8 8.1.82.445](https://www.apkmirror.com/apk/microsoft-corporation/microsoft-remote-desktop/microsoft-remote-desktop-8-1-82-445-release/)
-
-  - Android 4.0.3+ · [Remote Desktop 8 8.1.28.2](https://www.apkmirror.com/apk/microsoft-corporation/microsoft-remote-desktop/microsoft-remote-desktop-8-1-28-2-release/)
-    
-
+- The Remote Desktop client will be installed and configured automaticially, you only need to click "Accept" when the license agreement appears and the installer will configure everything for you.
 
 # Desktop Session
      
