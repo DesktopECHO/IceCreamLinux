@@ -4,57 +4,36 @@ Most Android 4 _(AKA: Ice Cream Sandwich)_ devices run a 3.0.x Linux kernel.  If
 
 This project is a Linux environment based on glibc 2.23 from Ubuntu Xenial, with packages backported and rebuilt from newer Ubuntu sources.  Its goal is to run newer versions of Chrome and Firefox on Android 4.x devices made from 2011 onward. 
 
-The environment can be accessed on-device or remotely via RDP protocol.  
-Folder redirection and audio work out of the box.  
+The environment can be accessed on-device (localhost) or remotely using any RDP client.  Folder redirection and audio both work.  
 
 Current functionality:
 
-- Chromium 128 and Firefox 140.  Chromium seems to work better overall.
-- [Spot](https://github.com/xou816/spot) GTK Spotify Client
-- Pi-hole DNS Server.  Note you should not use the built-in updater (Source code changes are needed to work with old kernels).
-- Device becomes an AirPlay target.  This lets you AirPlay enable **any** wired or bluetooth speaker attached to your Android device
+- AirPlay enable _any_ wired or bluetooth speaker attached to your Android device.
+- Chromium 128.  Firefox 140 is available optionally, but Chromium seems to work better overall.
+- [Spot](https://github.com/xou816/spot) GTK Spotify Client.
+- Pi-hole DNS Server.  Note you should not use the built-in updater, as source code changes are needed to run with older kernels.
 
 **Requires a rooted device.**
 
-# Instructions
+# Installation
 
-- In your root app (SuperSU or Magisk) enable Global Namespace mounting (restart required)
+- Install walk-thru on [YouTube](https://youtube.com/shorts/fUjbu7cb-1Y?si=6b8pq-6DyteZcY7j)
   
-- Download/install the Linux Deploy APK.  [Version 2.5.1](https://github.com/meefik/linuxdeploy/releases/tag/2.5.1) is the latest version for Android 4.x.
-  
-- Download the Ice Cream Linux [disk image](https://github.com/DesktopECHO/IceCreamLinux/releases/latest/download/icl.tgz) and copy it to your device.
+- Download and install the [ICL Deploy APK](https://github.com/DesktopECHO/IceCreamLinux/releases/latest/download/icldeploy.apk).  Older devices with SSL issues can use this [HTTP link](http://desktopecho.com/icldeploy.apk)
 
-- In Linux Deploy options:
-  
-  - Set the location of the downloaded disk image, for example `/mnt/sdcard/icl.tgz`  
+- Open ICL Deploy:
 
-  - Enable the SysV Init System
+  - Tap **⋮** for more options (Three dots at the top right of screen)
+  
+  - Tap **Install** to create a new instance.  It will take a few minutes to download and deploy the new instance.
     
-  - Set a password for the default user (username: _android_)
-
-- Deploy the instance and wait a few minutes for it to complete.  
-
-- Start the Instance.  SSH Keys and SSL certificates will be regenerated during the deploymemt's first-run.
-
-- Open your RDP client and conect to the instance:
+  - Tap **Start** to run the Linux instance.  It will take a minute or two to configure the instance.  
+  
+  - Microsoft Remote Desktop will launch, click "Accept" when the license agreement appears.  Do not interrupt the device while it finalizes the configuration.
  
-   - When running the RDP client directly on the deivice, set `localhost` for the device name
-     
-   - For remote connections, set to the device's IP address or mDNS name (_devicename.local_)
- 
-   - Set the username (android) and the password
- 
-   - Enable folder, audio, and microphone redirection as needed
-     
-   - If the device has a touch screen, set mouse click to 'Tap' style
-
-- If Global Namespace mounting is enabled, the RDP client will be automatically installed and configured.  If not, see the links below to install an RDP client.
-
-  - Android 4.1+ · [Remote Desktop 8 8.1.82.445](https://www.apkmirror.com/apk/microsoft-corporation/microsoft-remote-desktop/microsoft-remote-desktop-8-1-82-445-release/)
-
-  - Android 4.0.3+ · [Remote Desktop 8 8.1.28.2](https://www.apkmirror.com/apk/microsoft-corporation/microsoft-remote-desktop/microsoft-remote-desktop-8-1-28-2-release/)
-    
-
+  - You will be logged into a minimal XFCE 4.18 desktop and the device is ready for AirPlay.
+  
+<img width="2421" height="483" alt="image" src="https://github.com/user-attachments/assets/6edcebb9-268c-4a8f-a02e-6e9adab802ad" />
 
 # Desktop Session
      
@@ -94,3 +73,5 @@ Current functionality:
   </tr>
 </table>
 
+# Configure Autostart
+<img width="1452" height="573" alt="image" src="https://github.com/user-attachments/assets/871d1fb8-3420-4f5d-a197-9500fb82a47f" />
